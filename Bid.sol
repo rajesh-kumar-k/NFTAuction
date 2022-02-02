@@ -31,7 +31,7 @@ contract Bidding {
         started = true;
         nft = _nft;
         nftId = _nftId;
-        nft.transferFrom(msg.sender, address(this), nftId);
+    
         
     }
     function enterbid(uint _bidderprice) public{
